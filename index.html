@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>よくあるご質問</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="faq-wrapper1">
+   <h1>免制震ディバイス　技術センター</h1>
+
+   <div class="logo">
+    <img src="adc_logo.png" alt="Company Logo">
+   </div>
+
+   <h2>装置のタブをクリックしてください。</h2>
+
+   <div class="tab-buttons">
+    <button class="tab-btn" onclick="showTabContent(1)">RDT</button>
+    <button class="tab-btn" onclick="showTabContent(2)">VDW</button>
+    <button class="tab-btn" onclick="showTabContent(3)">VDWm</button>
+    <button class="tab-btn" onclick="showTabContent(4)">CLB</button>
+   </div>
+
+</div>
+
+<div class="faq-wrapper2">
+  <h1>よくある質問</h1>
+
+  <div class="additional-info">
+    <p>ご利用いただくにあたって、よくある質問をまとめております。</p>
+  </div>
+
+  <div class="additional-info">
+    <p>一覧にない質問事項がありましたら、<a href="https://www.adc21.com/" target="_blank" style="color: #af1b1b;">お問い合わせページ</a>をご活用ください。</p>
+  </div>
+
+  <!-- タブ1の内容 -->
+  <div id="tab1-content" class="tab-content">
+    <h2>増幅機構付き減衰装置-減衰こま(RDT)について</h2>
+    <button id="show-all-btn-tab1" class="show-all-btn">すべての質問を見る</button>
+
+    <div class="faq-container">
+
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問1：検査結果について、水準1が基準値より低く、水準3が基準値より高い傾向にあるのはなぜですか？<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：設計式は1.5m/sまでの高速度領域までの評価であり、検査水準の速度領域では式の精度にバラツキがございます。これらの傾向は装置型番に関係なく同じ傾向となっています。</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問2：温度補正で使用する粘性体の温度はどのように測っているのですか？<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：粘性体は外筒に設けられたプラグに熱電対を2つセットし、直接粘性体の温度を計測しています。評価温度は、この2つの熱電対の最大速度時の温度の平均点を用いています。</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問3：検査を行うと、どの程度粘性体温度は上昇するのですか？<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：装置型番毎に若干の違いはございますが、水準1から水準3の加振で2〜3℃程度の上昇です。</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問4：外気温より粘性体温度が低いことはあるのでしょうか？<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：粘性体温度は、外筒(鉄)を介して熱が伝わるため、外気温の変動に対して時間差が生じる場合がございます。十分な時間放置すると外気温と粘性体温度はほぼ同じ値になります。</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問5：性能検査で不適合になった場合はどのような措置を行うのですか？<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：不適合の是正措置方法については、大臣認定書に定められております。判定値が高い場合は粘性体の粘度を低く、判定値が低い場合は粘性体の粘度を高くして性能調整を行います。粘度調整の記録は是正措置等依頼書として保管します。</div>
+      </div>
+  
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問6：検査機の能力が0.3m/sまでとなっているが、性能検査で0.2m/sまで行わないのはなぜですか？<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：検査機は最大荷重3000kN、最大ストローク±100mm、最大速度0.3m/sとなっておりますが、これらの仕様は無負荷時の能力であり、設置誤差等を考慮して安全に加振できる検査条件として、最大速度を0.2m/sと大臣認定書で定めています。</div>
+      </div>
+  
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問7：性能評価はなぜテーパーを含めた2サイクル目で行うのですか？<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：その他の装置では一般的に、性能が安定したサイクルで性能を行いますが、本装置は繰り返し変形に伴う性能低下を基準値で考慮しておりますので、評価サイクルは、なるべく性能低下が生じていない定常1サイクル目とし、繰り返し補正係数を用いて性能低下の妥当性を含め基準値との整合性を確認しています。</div>
+      </div>
+  
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問8：評価サイクルをテーパーを含む3サイクル目や4サイクル目とすると問題があるのでしょうか？<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：3サイクル目や4サイクル目でも問題ですが、なるべく補正幅が基準値に近い2サイクル目としています。</div>
+      </div>
+  
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問9：Qf(静摩擦力)を認定書に記載された値にした理由を教えてください。<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：Qfは、ラジアル軸受が支える重量やシール材の外径等から算出され装置型番毎に異なります。装置型番毎にこれらの数値を変えると大臣認定式が煩雑になるため、装置をいくつかのグループに分類し、グループ毎の平均値を採用するようにしています。</div>
+      </div>
+  
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問10：λ(等価摩擦係数)を認定書に記載された値にした理由を教えてください。<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：λは、ボールねじやスラスト軸受の摩擦係数や軸力等から算出されに装置型番毎に異なります。装置型番毎にこれらの数値を変えると大臣認定式が煩雑になるため、装置をいくつかのグループに分類し、グループ毎の平均値を採用するようにしています。</div>
+      </div>
+  
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問11：作動検査1での摩擦の検査方法とその目的を教えてください・<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：粘性体注入前に静的ジャッキによる押し引き試験により空抵抗値を測定します。空抵抗値が規定値以内にあることを確認し、装置の組み付けに問題がないか判断します。</div>
+      </div>
+  
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問12：作動検査1の判定基準とその根拠を教えてください。<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：大臣認定書では「摩擦抵抗力が所定の性能の2倍以下であること」と定められています。この判定基準は過去の統計データに安全率を考慮して決定しています。</div>
+      </div>
+  
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問13：作動確認1と作動確認2の違いを教えてください。<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：作動確認1では、粘性体封入前の装置の静摩擦力を、作動確認2では粘性体注入後の装置の低速性能を確認し、装置の組み付けに問題ないか、粘性体の注入時にエアーが混入されていないかなどを確認します。</div>
+      </div>
+  
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問14：評価点の荷重は最大速度時の荷重をきちんと拾っているのでしょうか？<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：最大速度は、変位の微分値にローパスフィルタを掛けたデータから算出しています。評価点の荷重は、この最大速度と同時刻の荷重データを抽出しています。</div>
+      </div>
+  
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問15：データ処理時の評価点(定常2サイクル目)はプログラム上、どのように拾っているのでしょうか？<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：定常2サイクル目の正負の最大速度時の荷重を算出し、その絶対値の平均値を評価点の荷重としています。</div>
+      </div>
+  
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問16：評価点の最大速度とはどのようにわかるのでしょうか？<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：最大速度を算出したときのデータ処理過程や算出後の時刻歴データを別途記録しており、別紙2として御立会検査時にお渡しすることが可能です。</div>
+      </div>
+  
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問17：基準値の繰り返し依存係数を0.85とした理由を教えてください。<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：RDTはエネルギー吸収に伴い粘性力が初期値(1.0)から0.7まで低下する特性をもっています。この特性を時々刻々と評価すると煩雑になるため、大臣認定書ではこの中間値の0.85時の荷重を基準値とし、±15%の繰り返し依存による性能ばらつきを考慮することとしております。</div>
+      </div>
+  
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問18：繰り返しによって粘性力が低下する要因を教えてください。<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：粘性体であるシリコーンオイルの高分子構造のほぐれの影響による性能の低下と、エネルギー吸収に伴う温度上昇による性能低下の２種類が考えられます。</div>
+      </div>
+  
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問19：バッファとはどのような役割をしているのですか？<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：粘性体の温度変化による膨張・収縮に伴う体積変化や装置内部の内圧を調整する役割を担っています。</div>
+      </div>
+  
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問20：シリコーンオイルの温度が25℃となっているが、装置の基準温度20℃と異なるのはなぜですか？<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：シリコーンオイルの基準粘度が25℃の時の粘度を示しているためです。</div>
+      </div>
+  
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問21：温度補正に基準温度が20℃と25℃の2つあるのはなぜですか？<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：シリコーンオイルの基準粘度は25℃の時の粘度を、装置の基準温度は20℃で評価しているためです。</div>
+      </div>
+  
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問22：履歴ループに見られる「うねり」は何の影響か教えてください。<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：RDTは回転するボールナットや内筒の回転慣性質量の影響により慣性力が発生します。この回転慣性質量と直列の装置剛性からなる振動系の影響で「うねり」が発生します。</div>
+      </div>
+  
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問23：テーパー波1波目の抵抗力は変化しますか？<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：テーパー波1波目の抵抗力も経験した累積エネルギー吸収量に応じて変化します。</div>
+      </div>
+  
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問24：検査要領書に記載されているデータの処理方法の中の実験値とはどういう意味ですか？<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：実験値とは、定常１サイクル目の最大速度時の荷重を示しており、温度補正と繰り返し補正を行う前の値となります。</div>
+      </div>
+  
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問25：荷重と変位の時刻歴の波形の「ずれ」はどうして生じるのですか？<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：RDTは速度に依存して粘性力(荷重)を発揮します。速度は変位に対して90度位相がずれているため、荷重と変位の時刻歴波形にずれが生じています。</div>
+      </div>
+  
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問26：全抵抗力の振動数依存性はありますか？<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：あります。振動数依存性は繰り返し依存性の評価式中に考慮されております。</div>
+      </div>
+  
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問27：荷重の時刻歴波形が弓なり形状になっているのはなぜですか？<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：RDTの抵抗力は「粘性抵抗力」と「摩擦抵抗力」および「慣性抵抗力」が足し合わさった形状をしています。弓なり形状はこれらの抵抗力のうち慣性抵抗力の影響が支配的です。</div>
+      </div>
+  
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問28：α３(補正繰り返し係数)はなぜこのような数値になるのでしょうか？<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：補正繰り返し係数は、設計ループにおける検査水準時の定常1サイクル目の抵抗力と抵抗力の基準値との比率を補正係数という形で導いています。</div>
+      </div>
+  
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問29：自主検査と立会検査の検査結果(判定値)で数%の違いが生じるのはなぜですか？<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：自主検査後、粘性力は十分な時間を空けると元の性能に戻りますが、立会検査では自主検査と試験温度やボールねじの状態が全く同じではないため、数%の違いが生じる場合がございます。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問30：試験機の点検は、どのような頻度で実施しているのですか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：検査で使用しているロードセルと変位計は１年に１回、製造メーカーで校正作業を実施しています。 熱電対は1年毎に買い替えたものを使用しています。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問31：調整鋼管の長さは調整できますか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：調整鋼管は大臣認定の範囲外のため長さの調整が可能です。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問32：回転トルクはどのように算出されるのですか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：回転トルクTは、全抵抗力P、ねじ軸のリードLdをパラメータに次の式で求められます。T=(Pn・Ld)/2π</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問33：認定取得時のボルトのJIS規格が廃止された場合どのような規格のボルトを使用するのですか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：現行のJIS規格の中で廃止されたJIS規格と同等以上のボルトを使用します。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問34：性能検査の手順を示す検査フローと各手順での役割は定められていますか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：性能検査フローと各手順での役割は大臣認定書で定められています。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問35：検査責任者になるための資格や社内規定はどのように定められていますか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：社内規定では、検査員として2年以上の実務経験と技術センター長が承認したものが検査責任者になれると規定しています。なお、検査員は検査責任者の指導による6か月のOJT教育を受講することが必要です。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問36：製作協力会社の製造工程の品質管理はどのように行っているのでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：案件毎に製品検査記録表などの書類確認と実査をADCの立会検査として実施しています。また、年に1度、製作工場で品質管理体制を確認する二者監査を実施しています。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問37：発注者等による立会検査手順書の中にある性能検査フローの自動、手動とはどういう意味ですか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：自動とは人の作業が入らないフローを、手動とは人が保存などの作業を行うフローを示します。例えば、一次データは試験後、自動で各サーバに保存され、写真と検査成績書は人が各サーバに保存します。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問38：検査で採用しているJASS6の改訂次数を教えてください。<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：2018年発行の第9次改訂を採用しております（2024年7月時点での最新版）。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問39：試験機（1号検査機と2号検査機）はどのような違いはあるのでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：動的アクチュエータの仕様は同じですが、使用している試験フレームの違いにより対応できる装置型番に違いがあります。1号検査機はRDT140まで、2号検査機はRDT100までが対応可能です。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問40：特別性能検査の入力波形に関して、各水準でサイクル数に違いがある理由はなぜでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：入力する振動数や振幅およびサイクル数の組み合わせは、動的アクチュエータを動かすことに必要な油圧量に依存します。そのため、加振水準によってはサイクル数を減らす場合がございます。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問41：補正繰り返し係数に関して、同じ速度条件で入力振動数によって係数が異なるのはなぜでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：繰り返し依存係数は振動数によって変化します。そのため、同じ速度条件でも係数が異なります。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問42：設置写真を撮影するデジタルカメラの時間設定はどのくらいの頻度で実施しているのでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：検査ではスマートフォンを使用して撮影しているため時間設定は行っておりません。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問43：リモートによる検査対応は行っていますか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：行っておりますが、リモート画面では確認しずらい検査項目もございますので、実地での検査を推奨しております。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問44：速度補正は、何のために行っているのでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：基準値を算出した速度に合わせるために実施しております。検査時の速度と基準値の速度は、±0.05m/s以内になるように検査を実施しています。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問45：温度の時刻歴波形も記録しているのでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：記録しております。記録した温度の時刻歴波形は検査成績書に添付されます。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問46：判定値、実振幅や実速度などの算出値はすべて手計で確認できるようなシステムになっていますか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：確認できるようになっています。性能値算出プログラムで検査成績書を作成するときに、各特性値の算出過程がわかる計算式と算出結果が確認できるファイルが作成されるようなシステムになっています。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問47：荷重はどのように測定しているのでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：荷重は、動的アクチュエータに内蔵されているロードセルで計測しています</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問48：可能な範囲で0.20m/s以上の加振を行っていただけるのでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：可能ですが、集録システムを変更する必要がございますので事前協議とさせてください。また、得られた結果は参考値とさせてください。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問49：RDTには慣性抵抗力があるが、粘性抵抗力の評価時に影響はないのでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：慣性抵抗力は相対加速度に、粘性抵抗力は相対速度に依存します。粘性抵抗力は最大速度時の抵抗力を評価いたしますが、この時の加速度は0となるため慣性抵抗力の影響はございません。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問50：データ処理の時に慣性力の影響は考慮しているのでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：検査水準におけるRDTの慣性力の影響はないため考慮しておりません。なお、回転慣性質量を高めたiRDTという弊社別製品の粘性力の評価を行う場合は、慣性抵抗力の影響を差し引いて評価いたします。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問51：データ処理時に実粘度のばらつきを評価しているのでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：考慮しておりません。実粘度のばらつきも含めて性能ばらつき±10%以内に入ることを判定基準としております。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問52：判定値の全体のばらつきに対して、速度、温度、繰り返し補正のそれぞれのばらつきがどの程度の割合になっているか確認しているのでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：立会検査時の検査成績書作成時には、それぞれのばらつきがどの程度の割合になっているか確認しておりませんが、今後の評価式の改善のために別途分析をしております。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問53：温度と繰り返し依存性の評価式については、長周期の任意評定時に審査を受けているのでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：立会検査時に補正式として使用している温度と繰り返し依存性の評価式は、元の大臣認定取得時に審査を受けております。温度の評価式は元の大臣認定取得時と長周期の任意評定時で同じ評価式を採用しておりますが、繰り返し依存性の評価式は、別式について長周期の任意評定で審査を受けています。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問54：サーバ1（ローカルサーバ）のデータは書き換えできないのでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：書き換えは可能ですが、変更履歴が残るシステムとなっています。また、品質管理責任者が書き換えが行われていないか案件毎にチェックしております。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問55：検査結果について、外気温を検査成績書の表中に記載していないのはなぜでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：外気温は、温度補正には用いていないため表中には記載していませんが、温度の時刻歴波形図に粘性体温度とともに併記しております。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問56：RDTの寿命や走行距離の限界があれば教えて下さい。<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：RDTの限界値は長周期の任意評定資料に記載されています。限界値の項目は粘性体容積あたりの全累積吸収エネルギー量と粘性体温度で、装置型番毎に規定されています。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問57：RDTのシリコーンオイルは危険物扱いにならないのでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：なりません。消防法による指定可燃物（合成樹脂類）は、粘度30万cSt以上、数値3,000kg以上が対象になります。RDTに封入されている粘性体量は、最大型番（RDT140）でも約4.6kgと少量のため、指定可燃物に該当しません。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問58：速度補正時に用いる設計抵抗力とはどういう式でしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：設計抵抗力とは温度20℃時の基準式のことを示しています。基準式はPn=λ(α・Qv+Qf)という形になっており、αは繰り返し依存係数で0.85の一定値、λは等価摩擦係数、Qfは静摩擦力を表しており、装置型番毎に規定されています。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問59：各種補正の内容、方法は、何かに規定されているのでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：改正告示の任意評定書に規定されております。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問60：RDTは縦揺れに対応出来るのでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：縦方向に設置することで対応可能です。水平方向に設置した場合は、縦揺れ時に生じた上下方向の変形角に応じて減衰力が作用します。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問61：R単位に関して、m/s、cm/sと統一した方が良いのではないでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：認定書に合わせて、m/sに統一した方が良いのですが、集録プログラムや制御コントローラー設定上cm/sの単位を一部採用しております。ご理解のほどよろしくお願いします。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問62：粘性体は劣化しないのでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：促進劣化試験により60年の耐用期間中に粘度変化が殆どないことを確認しております。また、粘性体は外筒と内筒の間にシール材で密閉された状態となっているため劣化は殆どございません。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問63：長周期加振や連続加振を行った場合、粘性体温度は何度まで上昇するのでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：長周期の任意評定取得時に実施した累積走行距離50mを目標とした試験では、100〜125℃を超える温度まで上昇しています。そのため、長周期の任意評定では、累積吸収エネルギー量や粘性体温度について適用限界範囲を設けています。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問64：性能検査のデータ保管期間はいつまでとなっていますか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：建物が解体される期間までと改正告示の任意認定書で規定しております。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問65：ボールねじの仕組みを教えてください。<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：ボールねじはねじ軸、ボールナットおよび負荷ボールで構成されています。軸方向の伸縮変形を回転運動に変換させる機構をもっており、ねじ1ピッチ（1リード）でナット(内筒)が1回転します。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問66：材料検査証明書のねじ軸の規格「AISI4150HV」の「V」とは何を意味しているのでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：規格としては「AISI4150H」までで、「V」は材料メーカと製作協力会社で取り交わしている内容の管理記号を表しています。「V」は真空脱ガス処理を示し、不純物を少なくすることで素材の耐寿命性を向上させる効果がございます。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問67：ねじ軸の膜厚の規格値「1μm以上」に対して、例えば、測定結果が10倍以上となっても作動性に問題はないのでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：ねじ軸の膜厚の規格値に対して、大きめにでる傾向はございますが作動性や性能に影響することはございません。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問68：膜厚について、クレビスの測定ポイントは複数検査表に明記されていますが、RDT本体およびねじ軸の測定ポイントはどこになるのでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：RDT本体およびねじ軸につきましても複数箇所数測定し、最小値を検査表に記録しております。詳細は御立会検査時にご説明いたします。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問69：クレビスの溶接について、ロボット溶接を行っている箇所はどこでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：フランジプレートとガセットプレートの溶接部分で、2山ガセットプレートの間を除いた箇所になります。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問70：材料検査証明書について、軸受材のミルシートが多いのはなぜですか？　<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：軸受材は内輪、外輪、鋼球で構成されていおり、使用した軸受材毎に各部材のミルシートを揃えているためです。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問71：使用している部材はどの製品に使用されているか把握されていますでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：部材のトレーサビリティ（生産流通情報把握システム）はとれております。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問72：これまでRDTを販売してから、粘性体の漏洩などの問題はありましたでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：粘性体の注入前にはエアリーク検査を行っており、ロトバリーシールからの漏洩問題はございませんが、使用しているグリースの基油が垂れてきた事例がございます。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問73：製品検査記録の「回転トルク」と「作動検査1」について、個々の測定結果に大きな差が見られた場合、性能検査の結果に影響は現れますでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：これらの項目は装置の組み付けなどの状態を確認するための検査であり、個々の測定結果にばらつきがあっても基準値以内であれば、減衰性能には影響を及ぼしません。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問74：粘性体の粘度測定の検査頻度はどのよう規定されていますでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：粘性体の製造ロット毎に1回粘度測定を実施します。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問75：3つの補正方法について教えてください。<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：速度補正は基準速度と検査時速度における抵抗力の差異を、温度補正は基準温度と検査時温度における抵抗力の差異を、繰り返し補正は基準繰り返し係数と検査時の繰り返し係数における抵抗力との差異を補正します。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問76：抵抗力の評価点は3点で行うのに対して、等価質量の評価点が1点であることを教えてください。<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：抵抗力は速度の非線形性がありますので複数点で評価する必要がございますが、等価質量は加速度に依存せず1つの物理量で定まりますので1点で評価いたします。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問77：シリコーンオイルのミルシートが基準粘度以外に複数枚ある場合は、何に使用していると考えればよいでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：粘度調整により性能調整したと考えてください。粘度調整は基準粘度にそれより低い粘度や高い粘度の粘性体をブレンドさせることで行います。配合比</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問78：粘性体の温度は免震層に設置後、測定する場合はありますか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：ございません。性能検査では温度補正をするために粘性体の温度を測定いたしましたが、免震層に設置後は、免震層の環境温度が0℃～40℃の範囲であることをご確認いただければ問題ありません。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問79：3000kN動的アクチュエータの荷重の分解能を教えてください。<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：集録器は32bitを使用しており、フルレンジ5(V)で測定しておりますので分解能は5/4294967296(V)となります。最大荷重は3000(kN)で校正係数は600(kN/V)ですので、荷重物の最小分解能は0.000001(kN)となります。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問80：集録のサンプリング周波数はいくつでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：振動数0.5Hzの時、サンプリング周波数200Hzで集録しております。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問81：指令変位は割り増ししているのでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：ダンパ変位は目標変位に対して誤差範囲が定められており、誤差範囲に収まらなかった場合は指令変位を調整いたします。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問82：速度補正のPn（V1）とPn（V2）について設計抵抗力とは何ですか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：RDTの設計式より検査時の速度で算出した抵抗力を設計抵抗力Pn(V1)、水準1、水準2または水準3の速度で算出した抵抗力を設計抵抗力Pn(V2)としています。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問83：設計速度以上の地震が来るどうなるのでしょうか？すぐに損傷するのでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：装置の耐力は設計速度における抵抗力に対して十分な安全率を考慮して設計しております。そのため、設計速度以上の地震がきてもすぐに損傷することはございません。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問84：振幅30mm動くとは実際はどういう状態なのでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：制震建物か免震建物に設置されているか、その建物周期がどのぐらいかによっても状態は異なりますが、例えば、階高4mの制震建物でRDTが振幅30mmが動く状況は大地震レベルと想定されます。一方、周期4秒の免震建物でRDTが振幅30mmが動く状況は小地震レベルと想定されます。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問85：RDTの内部ではどのような圧力があるのでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：温度上昇に伴う粘性体の膨張による圧力などがあります。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問86：連続的な地震を想定した場合、RDTの性能ばらつきに温度上昇に伴う性能低下は考慮されているのでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：元の大臣認定式では初期温度の性能ばらつきは考慮されておりますが、温度上昇に伴う性能低下は考慮されていません。理由は、元の大臣認定取得時は式では連続的な地震や長周期地震動のような大きなエネルギーを考慮する必要がなかったためです。そのため、「長周期地震動に対する免震材料の性能変化（任意評定）」で連続的な地震を想定した温度上昇に伴う性能低下式を規定しております。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問87：検査成績書の承認・押印はどのようにされているのでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：承認・押印手順は以下のとおりです。はじめに、サーバ1のデータで作成された検査成績書に検査責任者が押印し、検査責任者は製造部担当者と品質管理推進責任者に報告します。次に、報告を受けた製造部担当者と品質管理推進責任者はサーバ2のデータで作成した検査成績書と相違がないことを確認して検査成績書に押印・サインをします。なお、サーバ2のデータは品質管理推進責任者と品質管理推進責任者が任命した者しかアクセスするこができないシステムとなっています。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問88：津波などの影響で水没しても製品の問題はないのでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：すぐに問題になるようなことはありませんが、装置内部に水が侵入した可能性がございますので、工場で分解して点検を行う必要があります。
+  
+          </div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問89：実振幅と実速度がすべて目標より小さめですが、このような傾向になることが多いのでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：目標値に対して振幅は±1.0mm、速度は±0.5cm/s以内で検査を実施しています。目標値に合うように入力振幅の割り増しを行なっておりますが、検査機フレームの直列剛性の影響で、実振幅と実速度は目標に対して小さくなる傾向がございます。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問90：検査成績書に添付している別紙1のグラフは補正を行ったグラフなのでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：補正を行なっていない一次データを使用したときの履歴ループと時刻歴波形を示しています。3段階の補正値および補正後の抵抗力は最初のページの検査結果に記載しております。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問91：試験体の設置について、中立寸法で設置した場合と少し伸縮した寸法で設置した場合で性能に変化はありますでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：この場合、性能に影響を及ぼさないボールナット中心位置からのねじ軸の出入り寸法が異なるだけになりますで、性能には変化はございません。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問92：クレビス全長について、1山、2山の単体ではマイナス側で計測されるが、 組み合わせるとプラス側にあるのはなぜですか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問93：拝見した資料で粘性体の高分子構造について、分子間の絡みがほぐれる内容が記載されていました。この影響で繰り返し補正をするのでしょうか？また、絡みのほぐれは破壊現象でないので元に戻るという理解でよろしいでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：おっしゃるとおりです。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問94：ねじ軸の材料が「JIS」でなくて「AISI」なのはなぜですか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：AISI4150Hは、高周波焼入れ用鋼材の規格であり、JISに相当する規格がないため、この規格を記載しております。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問95：クレビスの検査表について、検査日が2箇所にあり、別々の日付が記載されているのはなぜですか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：塗装前と塗装後（クレビスの組立後）に測定した日付を記載しているためです。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問96：ボルトの穴位置の測定結果が数値ではなく、「OK」という表示なのはなぜですか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：測定箇所が多いため、測定の結果が判定値以内であれば「OK」と記載しています。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問97：検査結果（判定値）が合格範囲のギリギリなのはなぜですか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：検査結果（判定値）は、合格範囲のギリギリの場合もございます。
+  
+          </div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問98：温度の適用範囲について、0℃以下もしくは40℃以上になった場合はどうなるのですか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：適用範囲は設計式で確認している温度です。装置耐力は安全率を考慮して設計しておりますので、適用範囲外でも装置が損傷するものではございません。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問99：バッファはどこまで傾けてよいのですか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：30°までとなっております。それ以上傾けるとバッファ内のエアが装置内部の減衰部に混入する恐れがございます。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問100：改正告示の対応について、他社では他の部署や第三者機関が書類をチェックしていますが、御社ではどのようにチェックされていますか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：弊社では品質管理推進責任者がチェックいたします。品質管理推進責任者は他の部署とは独立した権限を有するものが選任されます。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問101：抵抗力の評価点がプラス側とマイナス側の最大荷重時でないのはなぜですか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：抵抗力の評価点は、定常2サイクル目のプラス側とマイナス側の最大速度時の抵抗力としているため、最大荷重そのものの値とは異なります。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問102：各検査実施後、ロードセルに荷重が残っていいるのはなぜですか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：装置設置後、検査開始前に荷重のバランスはゼロに設定いたしますが、アクチュエータは油の流量で動作を制御をしているため、完全にゼロにはなりません。また、RDTは粘性ダンパですので加振後に速度がゼロになると、荷重は加振前の荷重にほぼ戻りますが、機械的な摩擦要素も含むため完全にゼロにはなりません。これらの要因により、検査実施後のロードセルの荷重は完全にゼロではなく少し変動いたします。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問103：自主検査と立会検査のデータについて、正としているのはどちらになりますか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：自主検査を正としております。これは大臣認定取得時に検査機関に指導されている事項になります。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問104：検査結果に使用している温度は検査全体の温度なのか、一部を抜き出して使用しているのでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：全体温度の平均ではなく、ある一点を使用しています。評価点である定常1サイクル目の正側と負側の最大速度時の温度を抜き出して、その平均値を検査結果に記録しています。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問105：試験速度について、水準1（0.05m/s）と水準2（0.1m/s）、水準3（0.2m/s）はどのように定めたのですか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：大臣認定書に規定されている免震適用周期2〜6秒と、アクチュエータのストロークおよび最大速度に安全率を考慮して、上記3点の検査水準を定めました。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問106：判定値が負側の結果となった場合でも設計上の条件は満たされているのでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：設計上は製造ばらつき±10%を考慮して建物の安全性を確認していただいておりますので、負側の結果となった場合でも-10%以内であれば設計上の条件は満たすことになります。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問107：試験結果の傾向は、御社が設定した（狙い）通りなのでしょうか。<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：判定値が基準値±10%範囲に入ることは設定した通りですが、水準1は低く、水準3は高い傾向にあるのは今後改善していきたいと考えております。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問108：履歴ループの荷重について、正側が高く負側が低いのはなぜですか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：RDTは繰り返し変形に伴いエネルギー吸収すると、荷重が徐々に低下する特性をもっています。そのため、加振直後の正側の方が荷重が高く負側になるに従って徐々に荷重が低くなる傾向があります。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問109：判定値が検査水準が速くなるに従って大きくなっているが、0.2m/s以上では判定基準を超えることはないのでしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：RDTの非線形性は0.2m/s付近が最も大きく、0.2m/sを越えると頭打ちになる傾向があります。他の検査機関で実施した0.2m/s以上の高速試験では判定基準を超えないことを確認しています。</div>
+      </div>
+  
+      <div class="faq-item">
+          <div class="question">
+            <span class="q">Q</span> 質問110：履歴ループの荷重について、正側は装置が伸びている状態でしょうか？それとも縮んでいる状態でしょうか？<button class="toggle-btn">+</button>
+          </div>
+          <div class="answer">回答：弊社で使用している動的アクチュエータは、スタート時は引きの動作をしますので、装置は伸びている状態になります。</div>
+      </div>
+
+
+
+     
+
+    </div>
+  </div>
+
+  <!-- タブ2の内容 -->
+  <div id="tab2-content" class="tab-content">
+    <h2>粘性制震壁(VDW)について</h2>
+    <button id="show-all-btn-tab2" class="show-all-btn">すべての質問を見る</button>
+
+    <div class="faq-container">
+
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問1：<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問2：<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問3：<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問4：<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：</div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- タブ3の内容 -->
+  <div id="tab3-content" class="tab-content">
+    <h2>小型多層粘性制震壁(VDWm)について</h2>
+    <button id="show-all-btn-tab3" class="show-all-btn">すべての質問を見る</button>
+
+    <div class="faq-container">
+
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問1：<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問2：<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問3：<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問4：<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：</div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- タブ4の内容 -->
+  <div id="tab4-content" class="tab-content">
+    <h2>直動転がり支承(CLB)について</h2>
+    <button id="show-all-btn-tab4" class="show-all-btn">すべての質問を見る</button>
+
+    <div class="faq-container">
+
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問1：<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問2：<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問3：<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="question">
+          <span class="q">Q</span> 質問4：<button class="toggle-btn">+</button>
+        </div>
+        <div class="answer">回答：</div>
+      </div>
+
+    </div>
+  </div>
+
+ 
+</div>
+
+<script src="script.js"></script>
+<chat-bot platform_id="8bccdd0a-2f28-4a12-9e72-5f800e9bbab4" user_id="a6c899c1-f222-401b-b37b-3df870f11197" chatbot_id="9436f839-6d28-4f70-8877-6a80f6cdfa11"><a href="https://www.chatsimple.ai/?utm_source=widget&utm_medium=referral">chatsimple</a></chat-bot><script src="https://cdn.chatsimple.ai/chat-bot-loader.js" defer></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
